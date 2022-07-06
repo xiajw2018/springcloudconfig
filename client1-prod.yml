@@ -1,3 +1,14 @@
+spring:
+  cloud:
+    stream:
+      kafka:
+        binder:
+          brokers: 192.168.92.132:9092
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh,health
 eureka:
   client:
     service-url:
