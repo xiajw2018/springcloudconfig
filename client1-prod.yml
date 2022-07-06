@@ -9,10 +9,6 @@ management:
     web:
       exposure:
         include: refresh,health
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8080/eureka
 author:
   name: xiajw.testBus
   birth: 1995
